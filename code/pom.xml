@@ -9,7 +9,10 @@
         <version>1.0.3-SNAPSHOT</version>
         <relativePath>../code-parent/pom.xml</relativePath>
     </parent>
-
+    <properties>
+        <!-- Dependency versions -->
+        <version.jackson>2.9.10.3</version.jackson>
+    </properties>
     <artifactId>maven-multi-module-code</artifactId>
     <name>Maven Multi Module Template :: Code</name>
     <description>Some real code</description>
@@ -19,7 +22,7 @@
     				<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
-			<version>2.9.10.3</version>
+            <version>${version.jackson}</version>
 		</dependency>
         		<dependency>
             <groupId>org.apache.commons</groupId>
