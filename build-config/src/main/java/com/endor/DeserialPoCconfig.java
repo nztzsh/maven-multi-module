@@ -5,7 +5,7 @@ import java.io.IOException;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class DeserialPoC {
+public class DeserialPoCconfig {
 
     public static void main(String[] args) {
         if (args.length != 1) {
