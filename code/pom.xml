@@ -11,7 +11,7 @@
     </parent>
     <properties>
         <!-- Dependency versions -->
-        <version.jackson>2.9.10.3</version.jackson>
+        <version.jackson>2.17.1</version.jackson>
     </properties>
     <artifactId>maven-multi-module-code</artifactId>
     <name>Maven Multi Module Template :: Code</name>
